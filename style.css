@@ -27,7 +27,13 @@ header{
 .parant-1{
 	padding: 0.1rem;
 }
+footer{
 
+	text-align: center;
+}
+footer a{
+	color: black;
+}
 
 .mybody{
 
