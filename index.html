@@ -28,7 +28,7 @@
 				
 			</div>
 		</div>
-		<div class="heart" onclick="flip()"></div>
+		<div class="heart" onclick="playMyAudio()"></div>
 	</div>
 </div>
 </div>
@@ -41,6 +41,10 @@
         envolope.addEventListener('click', () => {
             envolope.classList.toggle('flap');
         });
+		
+		 function playMyAudio(){
+       document.getElementById("myAudio").play();
+     }
     </script>
 </body>
 </html>
